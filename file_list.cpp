@@ -215,6 +215,10 @@ void file_list::init_supported_types()
 	m_ext_list.insert("png");
 	m_ext_list.insert("lbm");
 	m_ext_list.insert("iff");
+	m_ext_list.insert("webp");
+	m_ext_list.insert("avif");
+	m_ext_list.insert("hif");
+	m_ext_list.insert("qoi");
 }
 
 bool file_list::is_supported_type(const std::string &type)
